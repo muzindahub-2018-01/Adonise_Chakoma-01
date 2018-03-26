@@ -1,0 +1,81 @@
+/* HTML elements */
+
+
+main{
+    padding-top: 80px;   
+}
+
+
+h1{
+    font-size: 40px;
+    text-align:right;
+    margin-right: 40px;
+}
+
+body{
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+header{
+    padding-top: 20px;
+    background-image: url(../img/farm.jpg);
+    background-position:center right;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+a:hover{
+    color: black;
+}
+
+footer{
+    text-align: center;
+    padding-top: 25px;
+    color: brown;
+    font-weight: bold;
+}
+
+
+/* Classes */
+
+.slogan{
+    font-weight: bold;
+    font-size: 18px;
+    text-align: right;
+    margin-right: 40px;
+}
+
+
+.site-nav{
+    margin-top:0; 
+    margin-left:0;
+    padding: 10px;
+}
+
+.site-nav ul{
+    margin:5px;
+    padding:30px;
+}
+
+.site-nav li {
+    list-style:none;
+    float:left;
+}
+
+.site-nav a{
+    display:block;
+    color:white;
+    font-family: monospace;
+    font-weight: bold;
+    text-align: left;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px 40px;
+    background-color: skyblue;
+    border: 2px solid green;
+    border-bottom:none  
+}
